@@ -6,7 +6,7 @@ from time import sleep
 from os import path
 
 language = 'ua'
-model_id = 'v3_ua'                           # determination of the necessary parameters
+model_id = 'v3_ua'                          # determination of the necessary parameters
 device = device('cpu')
 set_num_threads(8)
 
