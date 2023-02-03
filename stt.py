@@ -4,7 +4,7 @@ from queue import Queue
 from json import loads
 
 SetLogLevel(-1)
-model = Model("vosk-model-small-uk-v3-small")                   # here we assign a language model for speech recognition
+model = Model("path to your model")                   # here we assign a language model for speech recognition
 q = Queue()
 
 
