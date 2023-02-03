@@ -8,7 +8,7 @@ from tts import kozak_speak
 from starting import end, joke, open_something, msg_how, msg, time, music, wikipedia, start, question1, \
                      question2, weather
 
-####################################### Preparation functions #########################################################
+####################################### Preparation functions ########################################################
 
 disable_warnings()
 contacts = {}
