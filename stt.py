@@ -21,5 +21,5 @@ def kozak_listen(callback):
             if len(data) == 0:
                 break
             if rec.AcceptWaveform(data):
-                callback(loads(rec.Result())["text"])                 # returns results to callback function
+                callback(loads(rec.Result())["text"])                # returns results to callback function
 
