@@ -65,7 +65,7 @@ def weather_now():
                             "Chrome/51.0.2704.103 Safari/537.36"
                             })   # uses random client to avoid connection abort
     soup = bs(req.text, "html.parser")
-    temp = soup.find("span", class_="unit_temperature_c").get_text()      # getting current weather
+    temp = soup.find("span", class_="unit_temperature_c").get_text()     # getting current weather
     final_temp = num2words(temp, lang="uk")
     if "+" in temp:
         kozak_speak(f"У твоєму місті зараз плюс {final_temp}...")
