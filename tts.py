@@ -6,7 +6,7 @@ from time import sleep
 from os import path
 
 language = 'ua'
-model_id = 'v3_ua'                          # determination of the necessary parameters
+model_id = 'v3_ua'                           # determination of the necessary parameters
 device = device('cpu')
 set_num_threads(8)
 
@@ -25,6 +25,7 @@ example_text = "ай"
 
 
 def kozak_speak(what):
+
     audio = model.apply_tts(text=what,
                             speaker=speaker,                         # speaker function
                             sample_rate=sample_rate)
