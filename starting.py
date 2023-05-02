@@ -17,8 +17,8 @@ weather = ("погода", "скажи погоду", "яка погода", "я
 ################################# a dictionary that helps to execute "open_smt" function ##############################
 
 apps = {"app": {
-            "браузер": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-            "телеграм": "D:\\Telegram Desktop\\Telegram.exe",
+            "браузер": "C:\\Users\\danpl\\OneDrive\\Рабочий стол\\Microsoft Edge.lnk",
+            "телеграм": "C:\\Users\\danpl\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe",
             "калькулятор": "calc"
                 },
         "website": {
