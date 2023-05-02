@@ -37,7 +37,7 @@ def jokes():
 
 def musics():
     kozak_speak("Насолоджуйся друже...")
-    system('C:\\Users\\danpl\\Music\\Playlists\\Music.wpl')                # turns on music if there are some installed
+    system("C:\\Users\\danpl\\Music\\Playlists\\Kozak_playlist.m3u8")                # turns on music if there are some installed
 
 
 def current_time():
